@@ -53,7 +53,7 @@ minus.onclick = function(){
 }
 
 submit.onclick = function(){
-    //myName.innerHTML = myName;
+    console.log(selectDate);
     if(!myName.checkValidity()){
         alert("Please fill out the name field!");
         myName.focus;
@@ -80,6 +80,7 @@ submit.onclick = function(){
         text: "You have booked your reservation!",
         icon: "success",        
       });
-    return false;
+        
 }
+    return false;
 }
